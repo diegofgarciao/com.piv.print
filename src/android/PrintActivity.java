@@ -18,7 +18,7 @@ private String vuelta = "PIVPluginVerificado";
 private String rta;
 
     @Override
-        public boolean execute(String action, final JSONArray args,final  CallbackContext callbackContext) throws JSONException {
+        public boolean execute(String action, final JSONArray args, CallbackContext callbackContext){
 
             if(action.equals("verificarPluginJava")){
                 rta = args + vuelta;
